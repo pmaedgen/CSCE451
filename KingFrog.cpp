@@ -17,7 +17,7 @@ int printNum(int num){
 }
 
 void frog(){
-    cout<<"         o  o   o  o"<<endl; 
+    cout<<"         o  o   o  o"<<endl;
     cout<<"         |\\/ \\^/ \\/|"<<endl;
     cout<<"         |,-------.|"<<endl;
     cout<<"       ,-.(|)   (|),-."<<endl;
@@ -69,7 +69,7 @@ int main() {
 
     cout<< "The King asks you \"What the Jester is doing with your numbers?\" "<<endl;
     cout<<"Your answer to the King: ";
-    cin>>guess; 
+    cin>>guess;
 
     cout<< "The Jester Returns the Result: "<<endl;
     if(ez){
@@ -87,18 +87,17 @@ int main() {
 
     if(kingHappy){
         cout<<"The King is happy with your answer. Congrats you get to live!" <<endl;
+        return 1;
     }
     else{
         cout<<"Uh Oh, the king is not happy. You Lose"<<endl;
     }
 
-    cout<<endl<<endl<<endl;
-    cout<<"Next Challange!!!"<<endl;
-    cout<<endl;
 
     // printf() displays the string inside quotation
 
 
+    cout << "\n\n\nLets try something different..." << endl;
     cout << "\nFind the area of a rectangle given its dimensions ;)" << endl;
     unsigned int l, w;
     int area;
