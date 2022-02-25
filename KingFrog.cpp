@@ -63,13 +63,9 @@ int main() {
     cin>>c;
 
     bool ez = myRandom();
-<<<<<<< HEAD
+
     cout<<"The Jester takes your numbers and makes a Funny Face"<<endl;
     cout<<"8 "<<ez<<endl;
-=======
-    cout<<"Funny Face:";
-    cout<<":"<<ez<<endl;
->>>>>>> 2cd0d54252f612b98d46a530968ed2e5323e5345
 
     cout<< "The King asks you \"What the Jester is doing with your numbers?\" "<<endl;
     cout<<"Your answer to the King: ";
@@ -93,11 +89,7 @@ int main() {
         cout<<"The King is happy with your answer. Congrats you get to live!" <<endl;
     }
     else{
-<<<<<<< HEAD
         cout<<"Uh Oh, the king is not happy. You Lose"<<endl;
-=======
-       cout<<" "<<printNum(add(a,b,c)) << endl;
->>>>>>> 2cd0d54252f612b98d46a530968ed2e5323e5345
     }
 
 
