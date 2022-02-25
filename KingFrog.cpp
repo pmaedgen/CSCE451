@@ -92,6 +92,9 @@ int main() {
         cout<<"Uh Oh, the king is not happy. You Lose"<<endl;
     }
 
+    cout<<endl<<endl<<endl;
+    cout<<"Next Challange!!!"<<endl;
+    cout<<endl;
 
     // printf() displays the string inside quotation
 
